@@ -1,31 +1,10 @@
 {
-  "added_nets": [
-    "/MCU/LCD_SCL_P5V",
-    "/MCU/LCD_SDA_P5V",
-    "/MCU/RENC_A_P5V",
-    "/MCU/RENC_BUTTON_P5V",
-    "/MCU/RENC_B_P5V",
-    "Net-(C32-Pad1)"
-  ],
-  "removed_nets": [
-    "/MCU/LCD_SCL_5V",
-    "/MCU/LCD_SDA_5V"
-  ],
+  "added_nets": [],
+  "removed_nets": [],
   "reclassified": [],
-  "added_components": [
-    "C34",
-    "C35",
-    "C36",
-    "C37",
-    "Q4",
-    "Q5",
-    "Q6",
-    "R21",
-    "R22",
-    "R23",
-    "R24",
-    "R25",
-    "R26"
-  ],
-  "removed_components": []
+  "added_components": [],
+  "removed_components": [
+    "R19",
+    "R20"
+  ]
 }

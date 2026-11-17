@@ -464,13 +464,13 @@
   {
     "ref": "R14",
     "value": "10K",
-    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
   {
     "ref": "R15",
     "value": "10K",
-    "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -489,18 +489,6 @@
     "ref": "R18",
     "value": "100R",
     "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
-    "missing_footprint": false
-  },
-  {
-    "ref": "R19",
-    "value": "10K",
-    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
-    "missing_footprint": false
-  },
-  {
-    "ref": "R20",
-    "value": "10K",
-    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
   {

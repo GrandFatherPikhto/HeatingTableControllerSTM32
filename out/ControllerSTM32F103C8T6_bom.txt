@@ -79,13 +79,11 @@ R10  | 1K                        | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R11  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R12  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R13  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R14  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R15  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R14  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R15  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R16  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R17  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R18  | 100R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-R19  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-R20  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R21  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R22  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R23  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder

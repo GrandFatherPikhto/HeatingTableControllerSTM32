@@ -925,14 +925,6 @@
           ]
         },
         {
-          "ref": "R19",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "U6",
           "value": "74HC14D",
           "missing_footprint": false,
@@ -959,14 +951,6 @@
         },
         {
           "ref": "R14",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
-          "ref": "R20",
           "value": "10K",
           "missing_footprint": false,
           "pins": [
@@ -2135,27 +2119,11 @@
           ]
         },
         {
-          "ref": "R19",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
           "ref": "R2",
           "value": "220R",
           "missing_footprint": false,
           "pins": [
             "1"
-          ]
-        },
-        {
-          "ref": "R20",
-          "value": "10K",
-          "missing_footprint": false,
-          "pins": [
-            "2"
           ]
         },
         {

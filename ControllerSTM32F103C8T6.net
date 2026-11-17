@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/HeatingTable/ControllerSTM32F103C8T6/ControllerSTM32F103C8T6.kicad_sch")
-		(date "2026-11-17T19:30:25")
+		(date "2026-11-17T19:40:09")
 		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
@@ -5682,7 +5682,7 @@
 		(comp
 			(ref "R14")
 			(value "10K")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
@@ -5690,7 +5690,7 @@
 				(field
 					(name "Role") "R_PU_HT01")
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -5748,7 +5748,7 @@
 		(comp
 			(ref "R15")
 			(value "10K")
-			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 			(description "Resistor")
 			(fields
 				(field
@@ -5756,7 +5756,7 @@
 				(field
 					(name "Role") "R_PU_HT02")
 				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
@@ -5995,138 +5995,6 @@
 				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
 			)
 			(tstamps "2e370c95-354d-439f-abf5-f1bc160149ac")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R19")
-			(value "10K")
-			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Cluster") "SIGNAL_OUT")
-				(field
-					(name "Role") "R_PD_01")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Cluster")
-				(value "SIGNAL_OUT")
-			)
-			(property
-				(name "Role")
-				(value "R_PD_01")
-			)
-			(property
-				(name "Sheetname")
-				(value "MCU")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mcu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/MCU/")
-				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
-			)
-			(tstamps "f7bd0753-7e42-4441-b545-5c5d1f8eec84")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R20")
-			(value "10K")
-			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Cluster") "SIGNAL_OUT")
-				(field
-					(name "Role") "R_PD_02")
-				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Cluster")
-				(value "SIGNAL_OUT")
-			)
-			(property
-				(name "Role")
-				(value "R_PD_02")
-			)
-			(property
-				(name "Sheetname")
-				(value "MCU")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mcu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/MCU/")
-				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
-			)
-			(tstamps "f90f9f4f-31b5-4808-8382-7d480297062b")
 			(units
 				(unit
 					(name "A")
@@ -8933,11 +8801,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R19")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
 				(ref "U6")
 				(pin "10")
 				(pintype "output")
@@ -8955,11 +8818,6 @@
 			)
 			(node
 				(ref "R14")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R20")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -9754,18 +9612,8 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R19")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R2")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R20")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
