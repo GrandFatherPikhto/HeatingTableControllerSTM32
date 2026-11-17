@@ -1,7 +1,7 @@
 {
   "source_file": "ControllerSTM32F103C8T6.net",
-  "total_nets": 68,
-  "connected_nets": 54,
+  "total_nets": 72,
+  "connected_nets": 58,
   "nets": [
     {
       "name": "+3V3_MAX6675_01",
@@ -215,6 +215,38 @@
           ]
         },
         {
+          "ref": "C34",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C35",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C36",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C37",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
           "ref": "C9",
           "value": "C 47uF 25V",
           "missing_footprint": false,
@@ -263,6 +295,30 @@
           ]
         },
         {
+          "ref": "Q4",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "Q5",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "Q6",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
           "ref": "R17",
           "value": "4K7",
           "missing_footprint": false,
@@ -271,27 +327,27 @@
           ]
         },
         {
-          "ref": "R18",
-          "value": "10K",
+          "ref": "R22",
+          "value": "4K7",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
           ]
         },
         {
-          "ref": "R19",
-          "value": "10K",
+          "ref": "R24",
+          "value": "4K7",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
           ]
         },
         {
-          "ref": "R20",
-          "value": "10K",
+          "ref": "R26",
+          "value": "4K7",
           "missing_footprint": false,
           "pins": [
-            "1"
+            "2"
           ]
         },
         {
@@ -490,6 +546,30 @@
         },
         {
           "ref": "R16",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R21",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R23",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R25",
           "value": "4K7",
           "missing_footprint": false,
           "pins": [
@@ -845,6 +925,14 @@
           ]
         },
         {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
           "ref": "U6",
           "value": "74HC14D",
           "missing_footprint": false,
@@ -871,6 +959,14 @@
         },
         {
           "ref": "R14",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R20",
           "value": "10K",
           "missing_footprint": false,
           "pins": [
@@ -921,7 +1017,7 @@
       ]
     },
     {
-      "name": "/MCU/LCD_SCL_5V",
+      "name": "/MCU/LCD_SCL_P5V",
       "sheet_path": [
         "MCU"
       ],
@@ -987,7 +1083,7 @@
       ]
     },
     {
-      "name": "/MCU/LCD_SDA_5V",
+      "name": "/MCU/LCD_SDA_P5V",
       "sheet_path": [
         "MCU"
       ],
@@ -1143,14 +1239,6 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "C32",
-          "value": "100 nF",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
           "ref": "J5",
           "value": "SWD",
           "missing_footprint": false,
@@ -1159,19 +1247,11 @@
           ]
         },
         {
-          "ref": "R7",
-          "value": "10K",
+          "ref": "R18",
+          "value": "100R",
           "missing_footprint": false,
           "pins": [
             "1"
-          ]
-        },
-        {
-          "ref": "SW1",
-          "value": "SW_Push",
-          "missing_footprint": false,
-          "pins": [
-            "2"
           ]
         },
         {
@@ -1192,19 +1272,19 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "J6",
-          "value": "Rotary Encoder",
+          "ref": "Q4",
+          "value": "BSS138",
           "missing_footprint": false,
           "pins": [
             "2"
           ]
         },
         {
-          "ref": "R18",
-          "value": "10K",
+          "ref": "R22",
+          "value": "4K7",
           "missing_footprint": false,
           "pins": [
-            "2"
+            "1"
           ]
         },
         {
@@ -1218,7 +1298,7 @@
       ]
     },
     {
-      "name": "/MCU/RENC_B",
+      "name": "/MCU/RENC_A_P5V",
       "sheet_path": [
         "MCU"
       ],
@@ -1229,15 +1309,48 @@
           "value": "Rotary Encoder",
           "missing_footprint": false,
           "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q4",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
             "3"
           ]
         },
         {
-          "ref": "R19",
-          "value": "10K",
+          "ref": "R21",
+          "value": "4K7",
           "missing_footprint": false,
           "pins": [
             "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_B",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "Q5",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R24",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "1"
           ]
         },
         {
@@ -1258,19 +1371,19 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "J6",
-          "value": "Rotary Encoder",
-          "missing_footprint": false,
-          "pins": [
-            "4"
-          ]
-        },
-        {
-          "ref": "R20",
-          "value": "10K",
+          "ref": "Q6",
+          "value": "BSS138",
           "missing_footprint": false,
           "pins": [
             "2"
+          ]
+        },
+        {
+          "ref": "R26",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "1"
           ]
         },
         {
@@ -1279,6 +1392,72 @@
           "missing_footprint": false,
           "pins": [
             "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_BUTTON_P5V",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "Q6",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R25",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_B_P5V",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "Q5",
+          "value": "BSS138",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R23",
+          "value": "4K7",
+          "missing_footprint": false,
+          "pins": [
+            "2"
           ]
         }
       ]
@@ -1737,6 +1916,38 @@
           ]
         },
         {
+          "ref": "C34",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C35",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C36",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C37",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
           "ref": "C4",
           "value": "47uF 10V",
           "missing_footprint": false,
@@ -1924,11 +2135,27 @@
           ]
         },
         {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
           "ref": "R2",
           "value": "220R",
           "missing_footprint": false,
           "pins": [
             "1"
+          ]
+        },
+        {
+          "ref": "R20",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
           ]
         },
         {
@@ -2052,6 +2279,45 @@
           "missing_footprint": false,
           "pins": [
             "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C32-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C32",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R18",
+          "value": "100R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "SW1",
+          "value": "SW_Push",
+          "missing_footprint": false,
+          "pins": [
+            "2"
           ]
         }
       ]

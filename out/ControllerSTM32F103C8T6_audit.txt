@@ -1,8 +1,8 @@
-Цепей (без unconnected): 54
+Цепей (без unconnected): 58
 
-[Default ] prio=2147483647 track=0.20 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   54: +3V3_MAX6675_01, +3V3_MAX6675_02, +3V3_STM32, +5P, +5V, /MCU/BOOT0, /MCU/BOOT1, /MCU/BUZZER, /MCU/BUZZER_LED, /MCU/BUZZER_LED_OUT, /MCU/HEATER_01, /MCU/HEATER_02, /MCU/HEATER_LED_01, /MCU/HEATER_LED_02, /MCU/HEATER_LED_OUT_01, /MCU/HEATER_LED_OUT_02, /MCU/HEATER_OUT_01, /MCU/HEATER_OUT_02, /MCU/LCD_SCL, /MCU/LCD_SCL_5V, /MCU/LCD_SDA, /MCU/LCD_SDA_5V, /MCU/MAX_CS_01, /MCU/MAX_CS_02, /MCU/MAX_MISO, /MCU/MAX_SCK, /MCU/NRST, /MCU/RENC_A, /MCU/RENC_B, /MCU/RENC_BUTTON, /MCU/RX, /MCU/SWCLK, /MCU/SWDIO, /MCU/TX, /MCU/XTAL_8M_IN, /MCU/XTAL_8M_OUT, /MCU/XTAL_RTC_IN, /MCU/XTAL_RTC_OUT, GND, Net-(BZ1--), Net-(D1-K), Net-(D2-K), Net-(D3-K), Net-(D4-K), Net-(Q1-B), Net-(R11-Pad1), Net-(R12-Pad1), Net-(R13-Pad1), Net-(U5-Pad11), Net-(U5-Pad13), Net-(U5-Pad6), Net-(U6-Pad11), Net-(U6-Pad13), Net-(U6-Pad6)
+[Default ] prio=2147483647 track=0.20 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   58: +3V3_MAX6675_01, +3V3_MAX6675_02, +3V3_STM32, +5P, +5V, /MCU/BOOT0, /MCU/BOOT1, /MCU/BUZZER, /MCU/BUZZER_LED, /MCU/BUZZER_LED_OUT, /MCU/HEATER_01, /MCU/HEATER_02, /MCU/HEATER_LED_01, /MCU/HEATER_LED_02, /MCU/HEATER_LED_OUT_01, /MCU/HEATER_LED_OUT_02, /MCU/HEATER_OUT_01, /MCU/HEATER_OUT_02, /MCU/LCD_SCL, /MCU/LCD_SCL_P5V, /MCU/LCD_SDA, /MCU/LCD_SDA_P5V, /MCU/MAX_CS_01, /MCU/MAX_CS_02, /MCU/MAX_MISO, /MCU/MAX_SCK, /MCU/NRST, /MCU/RENC_A, /MCU/RENC_A_P5V, /MCU/RENC_B, /MCU/RENC_BUTTON, /MCU/RENC_BUTTON_P5V, /MCU/RENC_B_P5V, /MCU/RX, /MCU/SWCLK, /MCU/SWDIO, /MCU/TX, /MCU/XTAL_8M_IN, /MCU/XTAL_8M_OUT, /MCU/XTAL_RTC_IN, /MCU/XTAL_RTC_OUT, GND, Net-(BZ1--), Net-(C32-Pad1), Net-(D1-K), Net-(D2-K), Net-(D3-K), Net-(D4-K), Net-(Q1-B), Net-(R11-Pad1), Net-(R12-Pad1), Net-(R13-Pad1), Net-(U5-Pad11), Net-(U5-Pad13), Net-(U5-Pad6), Net-(U6-Pad11), Net-(U6-Pad13), Net-(U6-Pad6)
 
-[Default] 54 цепей — мимо всех паттернов:
+[Default] 58 цепей — мимо всех паттернов:
     +3V3_MAX6675_01
     +3V3_MAX6675_02
     +3V3_STM32
@@ -22,17 +22,20 @@
     /MCU/HEATER_OUT_01
     /MCU/HEATER_OUT_02
     /MCU/LCD_SCL
-    /MCU/LCD_SCL_5V
+    /MCU/LCD_SCL_P5V
     /MCU/LCD_SDA
-    /MCU/LCD_SDA_5V
+    /MCU/LCD_SDA_P5V
     /MCU/MAX_CS_01
     /MCU/MAX_CS_02
     /MCU/MAX_MISO
     /MCU/MAX_SCK
     /MCU/NRST
     /MCU/RENC_A
+    /MCU/RENC_A_P5V
     /MCU/RENC_B
     /MCU/RENC_BUTTON
+    /MCU/RENC_BUTTON_P5V
+    /MCU/RENC_B_P5V
     /MCU/RX
     /MCU/SWCLK
     /MCU/SWDIO
@@ -43,6 +46,7 @@
     /MCU/XTAL_RTC_OUT
     GND
     Net-(BZ1--)
+    Net-(C32-Pad1)
     Net-(D1-K)
     Net-(D2-K)
     Net-(D3-K)
@@ -58,13 +62,14 @@
     Net-(U6-Pad13)
     Net-(U6-Pad6)
 
-!! Подозрительные в Default (20) — проверь руками:
+!! Подозрительные в Default (21) — проверь руками:
     +3V3_MAX6675_01
     +3V3_MAX6675_02
     +3V3_STM32
     +5V
     /MCU/SWCLK
     Net-(BZ1--)
+    Net-(C32-Pad1)
     Net-(D1-K)
     Net-(D2-K)
     Net-(D3-K)
