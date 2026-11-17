@@ -76,6 +76,9 @@ R14  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R15  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R16  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R17  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R18  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R19  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R20  | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 SW1  | SW_Push                   | SW_PUSH_6mm                   
 U1   | AMS1117-3.3               | SOT-223-3_TabPin2             
 U2   | AMS1117-3.3               | SOT-223-3_TabPin2             

@@ -1,19 +1,11 @@
 {
-  "added_nets": [
-    "/MCU/LCD_SCL_5V",
-    "/MCU/LCD_SDA_5V"
-  ],
-  "removed_nets": [
-    "+3V3_VDD"
-  ],
+  "added_nets": [],
+  "removed_nets": [],
   "reclassified": [],
   "added_components": [
-    "Q2",
-    "Q3",
-    "R16",
-    "R17",
-    "R5",
-    "R6"
+    "R18",
+    "R19",
+    "R20"
   ],
   "removed_components": []
 }

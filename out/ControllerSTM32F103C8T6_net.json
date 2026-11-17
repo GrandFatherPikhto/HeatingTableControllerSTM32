@@ -271,6 +271,30 @@
           ]
         },
         {
+          "ref": "R18",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R20",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
           "ref": "R5",
           "value": "4K7",
           "missing_footprint": false,
@@ -1176,6 +1200,14 @@
           ]
         },
         {
+          "ref": "R18",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
           "ref": "U4",
           "value": "STM32F103C8Tx",
           "missing_footprint": false,
@@ -1201,6 +1233,14 @@
           ]
         },
         {
+          "ref": "R19",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
           "ref": "U4",
           "value": "STM32F103C8Tx",
           "missing_footprint": false,
@@ -1223,6 +1263,14 @@
           "missing_footprint": false,
           "pins": [
             "4"
+          ]
+        },
+        {
+          "ref": "R20",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
           ]
         },
         {

@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/HeatingTable/ControllerSTM32F103C8T6/ControllerSTM32F103C8T6.kicad_sch")
-		(date "2026-11-17T15:35:17")
+		(date "2026-11-17T15:43:04")
 		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
@@ -5443,6 +5443,210 @@
 			)
 		)
 		(comp
+			(ref "R18")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "cd48178d-483c-4f95-8920-e1c7679b6f3f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "6950942c-108c-4714-9944-20fafaf312f7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "10K")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "2cb1de88-15b5-401a-8e81-8ce5c07a8445")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "SW1")
 			(value "SW_Push")
 			(footprint "Button_Switch_THT:SW_PUSH_6mm")
@@ -5759,9 +5963,9 @@
 				(names "/MCU/")
 				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
 			)
-			(tstamps "f9a280d7-104a-4b08-be89-fe3d51298fb0" "aaee4962-ae4b-4f8b-ae2e-ff94908a55f6"
-				"830dec33-25c3-4ac4-bf02-52fce2a9537a" "df76dfeb-055e-470b-b6d1-342b2b54b2f1"
-				"34cd445b-d78d-4836-b07a-a8da0ebf09f1" "bec241dc-5501-4437-b01c-d2e76747f99e"
+			(tstamps "df76dfeb-055e-470b-b6d1-342b2b54b2f1" "aaee4962-ae4b-4f8b-ae2e-ff94908a55f6"
+				"f9a280d7-104a-4b08-be89-fe3d51298fb0" "34cd445b-d78d-4836-b07a-a8da0ebf09f1"
+				"830dec33-25c3-4ac4-bf02-52fce2a9537a" "bec241dc-5501-4437-b01c-d2e76747f99e"
 				"1492bf4b-cb40-4614-93cd-8fadd30b5da8"
 			)
 			(units
@@ -7383,6 +7587,21 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "R5")
 				(pin "2")
 				(pintype "passive")
@@ -8008,6 +8227,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "U4")
 				(pin "10")
 				(pinfunction "PA0_10")
@@ -8025,6 +8249,11 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "U4")
 				(pin "11")
 				(pinfunction "PA1_11")
@@ -8039,6 +8268,11 @@
 				(ref "J6")
 				(pin "4")
 				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node

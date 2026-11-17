@@ -36,6 +36,9 @@
     Q2 (BSS138) -> пины: 1
     Q3 (BSS138) -> пины: 1
     R17 (4K7) -> пины: 2
+    R18 (10K) -> пины: 1
+    R19 (10K) -> пины: 1
+    R20 (10K) -> пины: 1
     R5 (4K7) -> пины: 2
     R7 (10K) -> пины: 2
     U1 (AMS1117-3.3) -> пины: 2
@@ -251,12 +254,15 @@
     U4 (STM32F103C8Tx) -> пины: 7
   /MCU/RENC_A  [Default]
     J6 (Rotary Encoder) -> пины: 2
+    R18 (10K) -> пины: 2
     U4 (STM32F103C8Tx) -> пины: 10
   /MCU/RENC_B  [Default]
     J6 (Rotary Encoder) -> пины: 3
+    R19 (10K) -> пины: 2
     U4 (STM32F103C8Tx) -> пины: 11
   /MCU/RENC_BUTTON  [Default]
     J6 (Rotary Encoder) -> пины: 4
+    R20 (10K) -> пины: 2
     U4 (STM32F103C8Tx) -> пины: 12
   /MCU/RX  [Default]
     J3 (USART) -> пины: 4
