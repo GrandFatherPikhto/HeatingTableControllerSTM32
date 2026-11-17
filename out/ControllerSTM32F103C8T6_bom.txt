@@ -6,7 +6,7 @@ BZ1  | Buzzer                    | Buzzer_12x9.5RM7.6
 C1   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
 C2   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
 C3   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
-C4   | 470uF 35V                 | CP_Radial_D13.0mm_P5.00mm     
+C4   | 47uF 10V                  | CP_Radial_D5.0mm_P2.50mm      
 C5   | 10uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C6   | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 C7   | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
@@ -42,10 +42,10 @@ D3   | LED Green                 | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 D4   | LED Green                 | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 D5   | 1N4007                    | D_SOD-123                     
 F1   | MF-MSMF075-2              | FUSC4632X85N                  
-H1   | MountingHole              | MountingHole_3.2mm_M3         
-H2   | MountingHole              | MountingHole_3.2mm_M3         
-H3   | MountingHole              | MountingHole_3.2mm_M3         
-H4   | MountingHole              | MountingHole_3.2mm_M3         
+H1   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H2   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H3   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
+H4   | MountingHole_Pad          | MountingHole_3.2mm_M3_DIN965_Pad
 J1   | +5V In                    | JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
 J2   | Boot                      | PinHeader_1x02_P2.54mm_Vertical
 J3   | USART                     | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
@@ -57,10 +57,14 @@ J8   | MAX6675_02                | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
 J9   | Led Out                   | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
 J10  | Signal Out                | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
 Q1   | MMBT3904                  | SOT-23                        
+Q2   | BSS138                    | SOT-23                        
+Q3   | BSS138                    | SOT-23                        
 R1   | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R2   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R3   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R4   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R5   | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R6   | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R7   | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R8   | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R9   | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
@@ -70,6 +74,8 @@ R12  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R13  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R14  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R15  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R16  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R17  | 4K7                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 SW1  | SW_Push                   | SW_PUSH_6mm                   
 U1   | AMS1117-3.3               | SOT-223-3_TabPin2             
 U2   | AMS1117-3.3               | SOT-223-3_TabPin2             

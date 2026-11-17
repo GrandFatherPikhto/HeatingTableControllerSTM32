@@ -25,8 +25,8 @@
   },
   {
     "ref": "C4",
-    "value": "470uF 35V",
-    "footprint": "CP_Radial_D13.0mm_P5.00mm",
+    "value": "47uF 10V",
+    "footprint": "CP_Radial_D5.0mm_P2.50mm",
     "missing_footprint": false
   },
   {
@@ -241,26 +241,26 @@
   },
   {
     "ref": "H1",
-    "value": "MountingHole",
-    "footprint": "MountingHole_3.2mm_M3",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
     "missing_footprint": false
   },
   {
     "ref": "H2",
-    "value": "MountingHole",
-    "footprint": "MountingHole_3.2mm_M3",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
     "missing_footprint": false
   },
   {
     "ref": "H3",
-    "value": "MountingHole",
-    "footprint": "MountingHole_3.2mm_M3",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
     "missing_footprint": false
   },
   {
     "ref": "H4",
-    "value": "MountingHole",
-    "footprint": "MountingHole_3.2mm_M3",
+    "value": "MountingHole_Pad",
+    "footprint": "MountingHole_3.2mm_M3_DIN965_Pad",
     "missing_footprint": false
   },
   {
@@ -330,6 +330,18 @@
     "missing_footprint": false
   },
   {
+    "ref": "Q2",
+    "value": "BSS138",
+    "footprint": "SOT-23",
+    "missing_footprint": false
+  },
+  {
+    "ref": "Q3",
+    "value": "BSS138",
+    "footprint": "SOT-23",
+    "missing_footprint": false
+  },
+  {
     "ref": "R1",
     "value": "330R",
     "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
@@ -351,6 +363,18 @@
     "ref": "R4",
     "value": "220R",
     "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R5",
+    "value": "4K7",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R6",
+    "value": "4K7",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
   {
@@ -405,6 +429,18 @@
     "ref": "R15",
     "value": "10K",
     "footprint": "R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R16",
+    "value": "4K7",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R17",
+    "value": "4K7",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
     "missing_footprint": false
   },
   {

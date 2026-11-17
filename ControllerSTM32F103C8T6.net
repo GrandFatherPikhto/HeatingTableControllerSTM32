@@ -2,8 +2,8 @@
 	(version "E")
 	(design
 		(source "/home/denis/Projects/KiCad/HeatingTable/ControllerSTM32F103C8T6/ControllerSTM32F103C8T6.kicad_sch")
-		(date "2026-10-15T13:26:15")
-		(tool "Eeschema 10.0.7-10.0.7~ubuntu26.04.1")
+		(date "2026-11-17T15:35:17")
+		(tool "Eeschema 10.0.8-10.0.8~ubuntu26.04.1")
 		(sheet
 			(number "1")
 			(name "/")
@@ -152,26 +152,26 @@
 	(components
 		(comp
 			(ref "H1")
-			(value "MountingHole")
-			(footprint "MountingHole:MountingHole_3.2mm_M3")
-			(description "Mounting Hole without connection")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
 			(fields
 				(field
 					(name "Cluster") "MOUNTING_HOLES")
 				(field
-					(name "Role") "MNT_HOLE_01")
+					(name "Role") "MNT01")
 				(field
-					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "Description") "Mounting Hole with connection")
 			)
 			(libsource
 				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
 			)
 			(property
 				(name "Cluster")
@@ -179,7 +179,7 @@
 			)
 			(property
 				(name "Role")
-				(value "MNT_HOLE_01")
+				(value "MNT01")
 			)
 			(property
 				(name "Sheetname")
@@ -198,42 +198,46 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "MountingHole*")
+				(value "MountingHole*Pad*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a6eb6218-a5c2-4ce2-8fc3-6e8ab5a32778")
+			(tstamps "e6f39594-32ea-4a37-b472-02aff9ce07d0")
 			(units
 				(unit
 					(name "A")
-					(pins)
+					(pins
+						(pin
+							(num "1")
+						)
+					)
 				)
 			)
 		)
 		(comp
 			(ref "H2")
-			(value "MountingHole")
-			(footprint "MountingHole:MountingHole_3.2mm_M3")
-			(description "Mounting Hole without connection")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
 			(fields
 				(field
 					(name "Cluster") "MOUNTING_HOLES")
 				(field
-					(name "Role") "MNT_HOLE_02")
+					(name "Role") "MNT02")
 				(field
-					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "Description") "Mounting Hole with connection")
 			)
 			(libsource
 				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
 			)
 			(property
 				(name "Cluster")
@@ -241,7 +245,7 @@
 			)
 			(property
 				(name "Role")
-				(value "MNT_HOLE_02")
+				(value "MNT02")
 			)
 			(property
 				(name "Sheetname")
@@ -260,42 +264,46 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "MountingHole*")
+				(value "MountingHole*Pad*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3c783fd1-250e-430d-a600-6086c52c88a8")
+			(tstamps "171b9b95-dc34-42fe-98c3-d340cc3d9126")
 			(units
 				(unit
 					(name "A")
-					(pins)
+					(pins
+						(pin
+							(num "1")
+						)
+					)
 				)
 			)
 		)
 		(comp
 			(ref "H3")
-			(value "MountingHole")
-			(footprint "MountingHole:MountingHole_3.2mm_M3")
-			(description "Mounting Hole without connection")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
 			(fields
 				(field
 					(name "Cluster") "MOUNTING_HOLES")
 				(field
-					(name "Role") "MNT_HOLE_03")
+					(name "Role") "MNT03")
 				(field
-					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "Description") "Mounting Hole with connection")
 			)
 			(libsource
 				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
 			)
 			(property
 				(name "Cluster")
@@ -303,7 +311,7 @@
 			)
 			(property
 				(name "Role")
-				(value "MNT_HOLE_03")
+				(value "MNT03")
 			)
 			(property
 				(name "Sheetname")
@@ -322,42 +330,46 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "MountingHole*")
+				(value "MountingHole*Pad*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "adfee4fd-3c1e-4f1d-9ddf-a79582bb9e89")
+			(tstamps "6be65513-f0b8-4354-8a3a-861c7a900c2d")
 			(units
 				(unit
 					(name "A")
-					(pins)
+					(pins
+						(pin
+							(num "1")
+						)
+					)
 				)
 			)
 		)
 		(comp
 			(ref "H4")
-			(value "MountingHole")
-			(footprint "MountingHole:MountingHole_3.2mm_M3")
-			(description "Mounting Hole without connection")
+			(value "MountingHole_Pad")
+			(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+			(description "Mounting Hole with connection")
 			(fields
 				(field
 					(name "Cluster") "MOUNTING_HOLES")
 				(field
-					(name "Role") "MNT_HOLE_04")
+					(name "Role") "MNT04")
 				(field
-					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3")
+					(name "Footprint") "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "Description") "Mounting Hole with connection")
 			)
 			(libsource
 				(lib "Mechanical")
-				(part "MountingHole")
-				(description "Mounting Hole without connection")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
 			)
 			(property
 				(name "Cluster")
@@ -365,7 +377,7 @@
 			)
 			(property
 				(name "Role")
-				(value "MNT_HOLE_04")
+				(value "MNT04")
 			)
 			(property
 				(name "Sheetname")
@@ -384,17 +396,21 @@
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "MountingHole*")
+				(value "MountingHole*Pad*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c94de482-de92-49fa-bc26-64768704b3df")
+			(tstamps "c9e6d7c4-a280-4825-a231-cf26904dfb27")
 			(units
 				(unit
 					(name "A")
-					(pins)
+					(pins
+						(pin
+							(num "1")
+						)
+					)
 				)
 			)
 		)
@@ -598,8 +614,8 @@
 		)
 		(comp
 			(ref "C4")
-			(value "470uF 35V")
-			(footprint "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm")
+			(value "47uF 10V")
+			(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 			(description "Polarized capacitor")
 			(fields
 				(field
@@ -607,7 +623,7 @@
 				(field
 					(name "Role") "C_IN_BULK")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
 				(field
 					(name "Datasheet")
 				)
@@ -4433,6 +4449,256 @@
 			)
 		)
 		(comp
+			(ref "Q2")
+			(value "BSS138")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+			(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+				(field
+					(name "Description") "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "BSS138")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "0307bc8a-e128-4abf-9e03-90deb867c670")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "BSS138")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+			(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+				(field
+					(name "Description") "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "BSS138")
+				(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "b463ee31-d7c7-4703-b77c-48b49faa8ddd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "d517c0be-bdab-48c0-9ad9-35f73dab1444")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "5904ee5e-ad7a-4a5c-926b-7ad2e8aba77f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "R7")
 			(value "10K")
 			(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -5041,6 +5307,142 @@
 			)
 		)
 		(comp
+			(ref "R16")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "468d60f1-ae27-444f-8cb1-8aa0c61a6d3e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "4K7")
+			(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Cluster")
+				)
+				(field
+					(name "Role")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Cluster")
+				(value "")
+			)
+			(property
+				(name "Role")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "MCU")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/MCU/")
+				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
+			)
+			(tstamps "cc40193a-535a-4f3e-8a8d-93c7ac6dad91")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
 			(ref "SW1")
 			(value "SW_Push")
 			(footprint "Button_Switch_THT:SW_PUSH_6mm")
@@ -5357,9 +5759,9 @@
 				(names "/MCU/")
 				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
 			)
-			(tstamps "aaee4962-ae4b-4f8b-ae2e-ff94908a55f6" "830dec33-25c3-4ac4-bf02-52fce2a9537a"
-				"f9a280d7-104a-4b08-be89-fe3d51298fb0" "df76dfeb-055e-470b-b6d1-342b2b54b2f1"
-				"bec241dc-5501-4437-b01c-d2e76747f99e" "34cd445b-d78d-4836-b07a-a8da0ebf09f1"
+			(tstamps "f9a280d7-104a-4b08-be89-fe3d51298fb0" "aaee4962-ae4b-4f8b-ae2e-ff94908a55f6"
+				"830dec33-25c3-4ac4-bf02-52fce2a9537a" "df76dfeb-055e-470b-b6d1-342b2b54b2f1"
+				"34cd445b-d78d-4836-b07a-a8da0ebf09f1" "bec241dc-5501-4437-b01c-d2e76747f99e"
 				"1492bf4b-cb40-4614-93cd-8fadd30b5da8"
 			)
 			(units
@@ -5493,9 +5895,9 @@
 				(names "/MCU/")
 				(tstamps "/5528cb22-b09a-42df-98d3-7cbda9119ac3/")
 			)
-			(tstamps "ce80a7ad-c0c5-4d42-8c82-9a302c0f01f9" "5d6d0076-d1e5-4ea6-831e-d193c195f88b"
-				"62e5ec3a-85ba-47e6-9578-55f38195262d" "de7cf5bd-e0c9-4434-86fc-4b904157c71a"
-				"7f275536-1d42-4035-839b-c78f8a6f42b3" "2dedb9b2-8f0a-4cd3-bc21-790d6a5912f1"
+			(tstamps "2dedb9b2-8f0a-4cd3-bc21-790d6a5912f1" "62e5ec3a-85ba-47e6-9578-55f38195262d"
+				"de7cf5bd-e0c9-4434-86fc-4b904157c71a" "7f275536-1d42-4035-839b-c78f8a6f42b3"
+				"5d6d0076-d1e5-4ea6-831e-d193c195f88b" "ce80a7ad-c0c5-4d42-8c82-9a302c0f01f9"
 				"0e733ca6-e883-46f5-b0fb-05ad725eaaf9"
 			)
 			(units
@@ -6576,16 +6978,16 @@
 		)
 		(libpart
 			(lib "Mechanical")
-			(part "MountingHole")
-			(description "Mounting Hole without connection")
+			(part "MountingHole_Pad")
+			(description "Mounting Hole with connection")
 			(footprints
-				(fp "MountingHole*")
+				(fp "MountingHole*Pad*")
 			)
 			(fields
 				(field
 					(name "Reference") "H")
 				(field
-					(name "Value") "MountingHole")
+					(name "Value") "MountingHole_Pad")
 				(field
 					(name "Footprint")
 				)
@@ -6593,7 +6995,14 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Mounting Hole without connection")
+					(name "Description") "Mounting Hole with connection")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "input")
+				)
 			)
 		)
 		(libpart
@@ -6707,6 +7116,44 @@
 				)
 			)
 		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "BSS138")
+			(description "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			(docs "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "BSS138")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF")
+				(field
+					(name "Description") "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
 	)
 	(libraries
 		(library
@@ -6748,6 +7195,10 @@
 		(library
 			(logical "Transistor_BJT")
 			(uri "${KICAD10_SYMBOL_DIR}/Transistor_BJT.kicad_sym")
+		)
+		(library
+			(logical "Transistor_FET")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym")
 		)
 	)
 	(nets
@@ -6903,9 +7354,37 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "J5")
 				(pin "1")
 				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Q3")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -6964,17 +7443,6 @@
 		)
 		(net
 			(code "4")
-			(name "+3V3_VDD")
-			(class "Default")
-			(node
-				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "5")
 			(name "+5P")
 			(class "Default")
 			(node
@@ -7007,7 +7475,7 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "5")
 			(name "+5V")
 			(class "Default")
 			(node
@@ -7071,6 +7539,16 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "3")
 				(pinfunction "VI_3")
@@ -7090,7 +7568,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "6")
 			(name "/MCU/BOOT0")
 			(class "Default")
 			(node
@@ -7117,7 +7595,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "7")
 			(name "/MCU/BOOT1")
 			(class "Default")
 			(node
@@ -7133,7 +7611,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "8")
 			(name "/MCU/BUZZER")
 			(class "Default")
 			(node
@@ -7149,7 +7627,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "9")
 			(name "/MCU/BUZZER_LED")
 			(class "Default")
 			(node
@@ -7165,7 +7643,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "10")
 			(name "/MCU/BUZZER_LED_OUT")
 			(class "Default")
 			(node
@@ -7181,7 +7659,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "11")
 			(name "/MCU/HEATER_01")
 			(class "Default")
 			(node
@@ -7197,7 +7675,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "12")
 			(name "/MCU/HEATER_02")
 			(class "Default")
 			(node
@@ -7213,7 +7691,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "13")
 			(name "/MCU/HEATER_LED_01")
 			(class "Default")
 			(node
@@ -7229,7 +7707,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "14")
 			(name "/MCU/HEATER_LED_02")
 			(class "Default")
 			(node
@@ -7245,7 +7723,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "15")
 			(name "/MCU/HEATER_LED_OUT_01")
 			(class "Default")
 			(node
@@ -7261,7 +7739,7 @@
 			)
 		)
 		(net
-			(code "17")
+			(code "16")
 			(name "/MCU/HEATER_LED_OUT_02")
 			(class "Default")
 			(node
@@ -7277,7 +7755,7 @@
 			)
 		)
 		(net
-			(code "18")
+			(code "17")
 			(name "/MCU/HEATER_OUT_01")
 			(class "Default")
 			(node
@@ -7298,7 +7776,7 @@
 			)
 		)
 		(net
-			(code "19")
+			(code "18")
 			(name "/MCU/HEATER_OUT_02")
 			(class "Default")
 			(node
@@ -7319,13 +7797,18 @@
 			)
 		)
 		(net
-			(code "20")
+			(code "19")
 			(name "/MCU/LCD_SCL")
 			(class "Default")
 			(node
-				(ref "J4")
-				(pin "4")
-				(pinfunction "Pin_4_4")
+				(ref "Q3")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7336,13 +7819,40 @@
 			)
 		)
 		(net
+			(code "20")
+			(name "/MCU/LCD_SCL_5V")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
 			(code "21")
 			(name "/MCU/LCD_SDA")
 			(class "Default")
 			(node
-				(ref "J4")
-				(pin "3")
-				(pinfunction "Pin_3_3")
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7354,6 +7864,28 @@
 		)
 		(net
 			(code "22")
+			(name "/MCU/LCD_SDA_5V")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
 			(name "/MCU/MAX_CS_01")
 			(class "Default")
 			(node
@@ -7370,7 +7902,7 @@
 			)
 		)
 		(net
-			(code "23")
+			(code "24")
 			(name "/MCU/MAX_CS_02")
 			(class "Default")
 			(node
@@ -7387,7 +7919,7 @@
 			)
 		)
 		(net
-			(code "24")
+			(code "25")
 			(name "/MCU/MAX_MISO")
 			(class "Default")
 			(node
@@ -7410,7 +7942,7 @@
 			)
 		)
 		(net
-			(code "25")
+			(code "26")
 			(name "/MCU/MAX_SCK")
 			(class "Default")
 			(node
@@ -7433,7 +7965,7 @@
 			)
 		)
 		(net
-			(code "26")
+			(code "27")
 			(name "/MCU/NRST")
 			(class "Default")
 			(node
@@ -7466,7 +7998,7 @@
 			)
 		)
 		(net
-			(code "27")
+			(code "28")
 			(name "/MCU/RENC_A")
 			(class "Default")
 			(node
@@ -7483,7 +8015,7 @@
 			)
 		)
 		(net
-			(code "28")
+			(code "29")
 			(name "/MCU/RENC_B")
 			(class "Default")
 			(node
@@ -7500,7 +8032,7 @@
 			)
 		)
 		(net
-			(code "29")
+			(code "30")
 			(name "/MCU/RENC_BUTTON")
 			(class "Default")
 			(node
@@ -7517,7 +8049,7 @@
 			)
 		)
 		(net
-			(code "30")
+			(code "31")
 			(name "/MCU/RX")
 			(class "Default")
 			(node
@@ -7534,7 +8066,7 @@
 			)
 		)
 		(net
-			(code "31")
+			(code "32")
 			(name "/MCU/SWCLK")
 			(class "Default")
 			(node
@@ -7551,7 +8083,7 @@
 			)
 		)
 		(net
-			(code "32")
+			(code "33")
 			(name "/MCU/SWDIO")
 			(class "Default")
 			(node
@@ -7568,7 +8100,7 @@
 			)
 		)
 		(net
-			(code "33")
+			(code "34")
 			(name "/MCU/TX")
 			(class "Default")
 			(node
@@ -7585,12 +8117,12 @@
 			)
 		)
 		(net
-			(code "34")
+			(code "35")
 			(name "/MCU/XTAL_8M_IN")
 			(class "Default")
 			(node
 				(ref "C30")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7607,12 +8139,12 @@
 			)
 		)
 		(net
-			(code "35")
+			(code "36")
 			(name "/MCU/XTAL_8M_OUT")
 			(class "Default")
 			(node
 				(ref "C18")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7629,12 +8161,12 @@
 			)
 		)
 		(net
-			(code "36")
+			(code "37")
 			(name "/MCU/XTAL_RTC_IN")
 			(class "Default")
 			(node
 				(ref "C19")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7651,12 +8183,12 @@
 			)
 		)
 		(net
-			(code "37")
+			(code "38")
 			(name "/MCU/XTAL_RTC_OUT")
 			(class "Default")
 			(node
 				(ref "C31")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -7673,7 +8205,7 @@
 			)
 		)
 		(net
-			(code "38")
+			(code "39")
 			(name "GND")
 			(class "Default")
 			(node
@@ -7723,12 +8255,12 @@
 			)
 			(node
 				(ref "C18")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "C19")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -7793,12 +8325,12 @@
 			)
 			(node
 				(ref "C30")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
 				(ref "C31")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -7840,6 +8372,30 @@
 				(ref "C9")
 				(pin "2")
 				(pintype "passive")
+			)
+			(node
+				(ref "H1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "H4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "input")
 			)
 			(node
 				(ref "J1")
@@ -8026,7 +8582,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "40")
 			(name "Net-(BZ1--)")
 			(class "Default")
 			(node
@@ -8049,7 +8605,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "41")
 			(name "Net-(D1-K)")
 			(class "Default")
 			(node
@@ -8065,7 +8621,7 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "42")
 			(name "Net-(D2-K)")
 			(class "Default")
 			(node
@@ -8081,7 +8637,7 @@
 			)
 		)
 		(net
-			(code "42")
+			(code "43")
 			(name "Net-(D3-K)")
 			(class "Default")
 			(node
@@ -8097,7 +8653,7 @@
 			)
 		)
 		(net
-			(code "43")
+			(code "44")
 			(name "Net-(D4-K)")
 			(class "Default")
 			(node
@@ -8113,7 +8669,7 @@
 			)
 		)
 		(net
-			(code "44")
+			(code "45")
 			(name "Net-(Q1-B)")
 			(class "Default")
 			(node
@@ -8129,7 +8685,7 @@
 			)
 		)
 		(net
-			(code "45")
+			(code "46")
 			(name "Net-(R11-Pad1)")
 			(class "Default")
 			(node
@@ -8144,7 +8700,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "47")
 			(name "Net-(R12-Pad1)")
 			(class "Default")
 			(node
@@ -8159,7 +8715,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "48")
 			(name "Net-(R13-Pad1)")
 			(class "Default")
 			(node
@@ -8174,7 +8730,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "49")
 			(name "Net-(U5-Pad6)")
 			(class "Default")
 			(node
@@ -8189,7 +8745,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "50")
 			(name "Net-(U5-Pad11)")
 			(class "Default")
 			(node
@@ -8204,7 +8760,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "51")
 			(name "Net-(U5-Pad13)")
 			(class "Default")
 			(node
@@ -8219,7 +8775,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "52")
 			(name "Net-(U6-Pad6)")
 			(class "Default")
 			(node
@@ -8234,7 +8790,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "53")
 			(name "Net-(U6-Pad11)")
 			(class "Default")
 			(node
@@ -8249,7 +8805,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "54")
 			(name "Net-(U6-Pad13)")
 			(class "Default")
 			(node
@@ -8264,7 +8820,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "55")
 			(name "unconnected-(U4-PA7-Pad17)")
 			(class "Default")
 			(node
@@ -8275,7 +8831,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "56")
 			(name "unconnected-(U4-PA8-Pad29)")
 			(class "Default")
 			(node
@@ -8286,7 +8842,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "57")
 			(name "unconnected-(U4-PA11-Pad32)")
 			(class "Default")
 			(node
@@ -8297,7 +8853,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "58")
 			(name "unconnected-(U4-PA12-Pad33)")
 			(class "Default")
 			(node
@@ -8308,7 +8864,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "59")
 			(name "unconnected-(U4-PA15-Pad38)")
 			(class "Default")
 			(node
@@ -8319,7 +8875,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "60")
 			(name "unconnected-(U4-PB0-Pad18)")
 			(class "Default")
 			(node
@@ -8330,7 +8886,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "61")
 			(name "unconnected-(U4-PB1-Pad19)")
 			(class "Default")
 			(node
@@ -8341,7 +8897,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "62")
 			(name "unconnected-(U4-PB3-Pad39)")
 			(class "Default")
 			(node
@@ -8352,7 +8908,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "63")
 			(name "unconnected-(U4-PB4-Pad40)")
 			(class "Default")
 			(node
@@ -8363,7 +8919,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "64")
 			(name "unconnected-(U4-PB5-Pad41)")
 			(class "Default")
 			(node
@@ -8374,7 +8930,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "65")
 			(name "unconnected-(U4-PB14-Pad27)")
 			(class "Default")
 			(node
@@ -8385,7 +8941,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "66")
 			(name "unconnected-(U4-PB15-Pad28)")
 			(class "Default")
 			(node
@@ -8396,7 +8952,7 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "67")
 			(name "unconnected-(U4-PC13-Pad2)")
 			(class "Default")
 			(node
@@ -8407,7 +8963,7 @@
 			)
 		)
 		(net
-			(code "67")
+			(code "68")
 			(name "unconnected-(U6-Pad8)")
 			(class "Default")
 			(node
