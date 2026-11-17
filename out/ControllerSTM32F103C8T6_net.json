@@ -1,0 +1,2137 @@
+{
+  "source_file": "ControllerSTM32F103C8T6.net",
+  "total_nets": 67,
+  "connected_nets": 53,
+  "nets": [
+    {
+      "name": "+3V3_MAX6675_01",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C10",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C13",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C16",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D3",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J7",
+          "value": "MAX6675_01",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "+3V3_MAX6675_02",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C11",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C14",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C17",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D4",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J8",
+          "value": "MAX6675_02",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "+3V3_STM32",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C12",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C15",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C20",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C21",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C22",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C23",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C24",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C25",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C26",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C27",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C28",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C29",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C9",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D2",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J5",
+          "value": "SWD",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "1",
+            "9",
+            "24",
+            "36",
+            "48"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "14"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "+3V3_VDD",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J2",
+          "value": "Boot",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "+5P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C4",
+          "value": "470uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C5",
+          "value": "10uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D1",
+          "value": "LED Red",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "F1",
+          "value": "MF-MSMF075-2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "+5V In",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "+5V",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "BZ1",
+          "value": "Buzzer",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C1",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C2",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C7",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C8",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D5",
+          "value": "1N4007",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "F1",
+          "value": "MF-MSMF075-2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J4",
+          "value": "LCD1602",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/BOOT0",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C33",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J2",
+          "value": "Boot",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/BOOT1",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R9",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/BUZZER",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R10",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/BUZZER_LED",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "26"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/BUZZER_LED_OUT",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J9",
+          "value": "Led Out",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "R11",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_01",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "45"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_02",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "46"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_LED_01",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "21"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_LED_02",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "22"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_LED_OUT_01",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J9",
+          "value": "Led Out",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_LED_OUT_02",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J9",
+          "value": "Led Out",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R12",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_OUT_01",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R15",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/HEATER_OUT_02",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J10",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "R14",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/LCD_SCL",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "value": "LCD1602",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "42"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/LCD_SDA",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "value": "LCD1602",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "43"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/MAX_CS_01",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J7",
+          "value": "MAX6675_01",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/MAX_CS_02",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J8",
+          "value": "MAX6675_02",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/MAX_MISO",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J7",
+          "value": "MAX6675_01",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "J8",
+          "value": "MAX6675_02",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/MAX_SCK",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J7",
+          "value": "MAX6675_01",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "J8",
+          "value": "MAX6675_02",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "15"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/NRST",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C32",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J5",
+          "value": "SWD",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "SW1",
+          "value": "SW_Push",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_A",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_B",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RENC_BUTTON",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/RX",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J3",
+          "value": "USART",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "31"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/SWCLK",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J5",
+          "value": "SWD",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "37"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/SWDIO",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J5",
+          "value": "SWD",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "34"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/TX",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J3",
+          "value": "USART",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/XTAL_8M_IN",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C30",
+          "value": "12 pF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "Y1",
+          "value": "8MHz",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/XTAL_8M_OUT",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C18",
+          "value": "12 pF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        },
+        {
+          "ref": "Y1",
+          "value": "8MHz",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/XTAL_RTC_IN",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C19",
+          "value": "6.8 pF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "Y2",
+          "value": "32.768KHz",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/MCU/XTAL_RTC_OUT",
+      "sheet_path": [
+        "MCU"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C31",
+          "value": "6.8 pF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "Y2",
+          "value": "32.768KHz",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C10",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C11",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C12",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C13",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C14",
+          "value": "1uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C15",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C16",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C17",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C18",
+          "value": "12 pF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C19",
+          "value": "6.8 pF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C2",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C20",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C21",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C22",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C23",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C24",
+          "value": "1 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C25",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C26",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C27",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C28",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C29",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "C 10uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C30",
+          "value": "12 pF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C31",
+          "value": "6.8 pF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C32",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C33",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "470uF 35V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C5",
+          "value": "10uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C7",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C8",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C9",
+          "value": "C 47uF 25V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "+5V In",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J10",
+          "value": "Signal Out",
+          "missing_footprint": false,
+          "pins": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "ref": "J3",
+          "value": "USART",
+          "missing_footprint": false,
+          "pins": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "ref": "J4",
+          "value": "LCD1602",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J5",
+          "value": "SWD",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "J6",
+          "value": "Rotary Encoder",
+          "missing_footprint": false,
+          "pins": [
+            "5"
+          ]
+        },
+        {
+          "ref": "J7",
+          "value": "MAX6675_01",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J8",
+          "value": "MAX6675_02",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J9",
+          "value": "Led Out",
+          "missing_footprint": false,
+          "pins": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "ref": "Q1",
+          "value": "MMBT3904",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R14",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R15",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R3",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R9",
+          "value": "100K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "SW1",
+          "value": "SW_Push",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "AMS1117-3.3",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U4",
+          "value": "STM32F103C8Tx",
+          "missing_footprint": false,
+          "pins": [
+            "8",
+            "23",
+            "35",
+            "47"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "7"
+          ]
+        },
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "5",
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(BZ1--)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "BZ1",
+          "value": "Buzzer",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "D5",
+          "value": "1N4007",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q1",
+          "value": "MMBT3904",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D1-K)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D1",
+          "value": "LED Red",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D2-K)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D2",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D3-K)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D3",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R3",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D4-K)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D4",
+          "value": "LED Green",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "220R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q1-B)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "Q1",
+          "value": "MMBT3904",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R10",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R11-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R11",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R12-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R12",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R13-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R13",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-Pad11)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "4",
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-Pad13)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "2",
+            "13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U5-Pad6)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U5",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "6",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U6-Pad11)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "4",
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U6-Pad13)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "2",
+            "13"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(U6-Pad6)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U6",
+          "value": "74HC14D",
+          "missing_footprint": false,
+          "pins": [
+            "6",
+            "9"
+          ]
+        }
+      ]
+    }
+  ]
+}

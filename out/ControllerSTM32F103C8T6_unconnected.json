@@ -1,0 +1,86 @@
+[
+  {
+    "name": "unconnected-(U4-PA11-Pad32)",
+    "pins": [
+      "U4.32"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PA12-Pad33)",
+    "pins": [
+      "U4.33"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PA15-Pad38)",
+    "pins": [
+      "U4.38"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PA7-Pad17)",
+    "pins": [
+      "U4.17"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PA8-Pad29)",
+    "pins": [
+      "U4.29"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB0-Pad18)",
+    "pins": [
+      "U4.18"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB1-Pad19)",
+    "pins": [
+      "U4.19"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB14-Pad27)",
+    "pins": [
+      "U4.27"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB15-Pad28)",
+    "pins": [
+      "U4.28"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB3-Pad39)",
+    "pins": [
+      "U4.39"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB4-Pad40)",
+    "pins": [
+      "U4.40"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PB5-Pad41)",
+    "pins": [
+      "U4.41"
+    ]
+  },
+  {
+    "name": "unconnected-(U4-PC13-Pad2)",
+    "pins": [
+      "U4.2"
+    ]
+  },
+  {
+    "name": "unconnected-(U6-Pad8)",
+    "pins": [
+      "U6.8"
+    ]
+  }
+]

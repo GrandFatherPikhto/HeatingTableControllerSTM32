@@ -1,0 +1,270 @@
+# ControllerSTM32F103C8T6 — нетлист (упрощённый)
+Цепей всего: 67 (без unconnected: 53)
+
+## / (корень)
+  +3V3_MAX6675_01  [Default]
+    C10 (C 47uF 25V) -> пины: 1
+    C13 (1uF) -> пины: 1
+    C16 (100nF) -> пины: 1
+    D3 (LED Green) -> пины: 2
+    J7 (MAX6675_01) -> пины: 1
+    U2 (AMS1117-3.3) -> пины: 2
+  +3V3_MAX6675_02  [Default]
+    C11 (C 47uF 25V) -> пины: 1
+    C14 (1uF) -> пины: 1
+    C17 (100nF) -> пины: 1
+    D4 (LED Green) -> пины: 2
+    J8 (MAX6675_02) -> пины: 1
+    U3 (AMS1117-3.3) -> пины: 2
+  +3V3_STM32  [Default]
+    C12 (1uF) -> пины: 1
+    C15 (100nF) -> пины: 1
+    C20 (1 uF) -> пины: 1
+    C21 (1 uF) -> пины: 1
+    C22 (1 uF) -> пины: 1
+    C23 (1 uF) -> пины: 1
+    C24 (1 uF) -> пины: 1
+    C25 (100 nF) -> пины: 1
+    C26 (100 nF) -> пины: 1
+    C27 (100 nF) -> пины: 1
+    C28 (100 nF) -> пины: 1
+    C29 (100 nF) -> пины: 1
+    C9 (C 47uF 25V) -> пины: 1
+    D2 (LED Green) -> пины: 2
+    J5 (SWD) -> пины: 1
+    R7 (10K) -> пины: 2
+    U1 (AMS1117-3.3) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 1, 9, 24, 36, 48
+    U5 (74HC14D) -> пины: 14
+    U6 (74HC14D) -> пины: 14
+  +3V3_VDD  [Default]
+    J2 (Boot) -> пины: 1
+  +5P  [Default]
+    C4 (470uF 35V) -> пины: 1
+    C5 (10uF) -> пины: 1
+    D1 (LED Red) -> пины: 2
+    F1 (MF-MSMF075-2) -> пины: 1
+    J1 (+5V In) -> пины: 1
+  +5V  [Default]
+    BZ1 (Buzzer) -> пины: 1
+    C1 (C 10uF 35V) -> пины: 1
+    C2 (C 10uF 35V) -> пины: 1
+    C3 (C 10uF 35V) -> пины: 1
+    C6 (100nF) -> пины: 1
+    C7 (100nF) -> пины: 1
+    C8 (100nF) -> пины: 1
+    D5 (1N4007) -> пины: 1
+    F1 (MF-MSMF075-2) -> пины: 2
+    J4 (LCD1602) -> пины: 2
+    J6 (Rotary Encoder) -> пины: 1
+    U1 (AMS1117-3.3) -> пины: 3
+    U2 (AMS1117-3.3) -> пины: 3
+    U3 (AMS1117-3.3) -> пины: 3
+  GND  [Default]
+    C1 (C 10uF 35V) -> пины: 2
+    C10 (C 47uF 25V) -> пины: 2
+    C11 (C 47uF 25V) -> пины: 2
+    C12 (1uF) -> пины: 2
+    C13 (1uF) -> пины: 2
+    C14 (1uF) -> пины: 2
+    C15 (100nF) -> пины: 2
+    C16 (100nF) -> пины: 2
+    C17 (100nF) -> пины: 2
+    C18 (12 pF) -> пины: 1
+    C19 (6.8 pF) -> пины: 1
+    C2 (C 10uF 35V) -> пины: 2
+    C20 (1 uF) -> пины: 2
+    C21 (1 uF) -> пины: 2
+    C22 (1 uF) -> пины: 2
+    C23 (1 uF) -> пины: 2
+    C24 (1 uF) -> пины: 2
+    C25 (100 nF) -> пины: 2
+    C26 (100 nF) -> пины: 2
+    C27 (100 nF) -> пины: 2
+    C28 (100 nF) -> пины: 2
+    C29 (100 nF) -> пины: 2
+    C3 (C 10uF 35V) -> пины: 2
+    C30 (12 pF) -> пины: 1
+    C31 (6.8 pF) -> пины: 1
+    C32 (100 nF) -> пины: 2
+    C33 (100 nF) -> пины: 2
+    C4 (470uF 35V) -> пины: 2
+    C5 (10uF) -> пины: 2
+    C6 (100nF) -> пины: 2
+    C7 (100nF) -> пины: 2
+    C8 (100nF) -> пины: 2
+    C9 (C 47uF 25V) -> пины: 2
+    J1 (+5V In) -> пины: 2
+    J10 (Signal Out) -> пины: 1, 3
+    J3 (USART) -> пины: 1, 3
+    J4 (LCD1602) -> пины: 1
+    J5 (SWD) -> пины: 5
+    J6 (Rotary Encoder) -> пины: 5
+    J7 (MAX6675_01) -> пины: 2
+    J8 (MAX6675_02) -> пины: 2
+    J9 (Led Out) -> пины: 2, 4
+    Q1 (MMBT3904) -> пины: 2
+    R1 (330R) -> пины: 1
+    R14 (10K) -> пины: 2
+    R15 (10K) -> пины: 2
+    R2 (220R) -> пины: 1
+    R3 (220R) -> пины: 1
+    R4 (220R) -> пины: 1
+    R8 (100K) -> пины: 1
+    R9 (100K) -> пины: 1
+    SW1 (SW_Push) -> пины: 1
+    U1 (AMS1117-3.3) -> пины: 1
+    U2 (AMS1117-3.3) -> пины: 1
+    U3 (AMS1117-3.3) -> пины: 1
+    U4 (STM32F103C8Tx) -> пины: 8, 23, 35, 47
+    U5 (74HC14D) -> пины: 7
+    U6 (74HC14D) -> пины: 5, 7
+  Net-(BZ1--)  [Default]
+    BZ1 (Buzzer) -> пины: 2
+    D5 (1N4007) -> пины: 2
+    Q1 (MMBT3904) -> пины: 3
+  Net-(D1-K)  [Default]
+    D1 (LED Red) -> пины: 1
+    R1 (330R) -> пины: 2
+  Net-(D2-K)  [Default]
+    D2 (LED Green) -> пины: 1
+    R2 (220R) -> пины: 2
+  Net-(D3-K)  [Default]
+    D3 (LED Green) -> пины: 1
+    R3 (220R) -> пины: 2
+  Net-(D4-K)  [Default]
+    D4 (LED Green) -> пины: 1
+    R4 (220R) -> пины: 2
+  Net-(Q1-B)  [Default]
+    Q1 (MMBT3904) -> пины: 1
+    R10 (1K) -> пины: 2
+  Net-(R11-Pad1)  [Default]
+    R11 (330R) -> пины: 1
+    U5 (74HC14D) -> пины: 12
+  Net-(R12-Pad1)  [Default]
+    R12 (330R) -> пины: 1
+    U5 (74HC14D) -> пины: 10
+  Net-(R13-Pad1)  [Default]
+    R13 (330R) -> пины: 1
+    U5 (74HC14D) -> пины: 8
+  Net-(U5-Pad11)  [Default]
+    U5 (74HC14D) -> пины: 4, 11
+  Net-(U5-Pad13)  [Default]
+    U5 (74HC14D) -> пины: 2, 13
+  Net-(U5-Pad6)  [Default]
+    U5 (74HC14D) -> пины: 6, 9
+  Net-(U6-Pad11)  [Default]
+    U6 (74HC14D) -> пины: 4, 11
+  Net-(U6-Pad13)  [Default]
+    U6 (74HC14D) -> пины: 2, 13
+  Net-(U6-Pad6)  [Default]
+    U6 (74HC14D) -> пины: 6, 9
+
+## /MCU
+  /MCU/BOOT0  [Default]
+    C33 (100 nF) -> пины: 1
+    J2 (Boot) -> пины: 2
+    R8 (100K) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 44
+  /MCU/BOOT1  [Default]
+    R9 (100K) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 20
+  /MCU/BUZZER  [Default]
+    R10 (1K) -> пины: 1
+    U4 (STM32F103C8Tx) -> пины: 25
+  /MCU/BUZZER_LED  [Default]
+    U4 (STM32F103C8Tx) -> пины: 26
+    U5 (74HC14D) -> пины: 1
+  /MCU/BUZZER_LED_OUT  [Default]
+    J9 (Led Out) -> пины: 5
+    R11 (330R) -> пины: 2
+  /MCU/HEATER_01  [Default]
+    U4 (STM32F103C8Tx) -> пины: 45
+    U6 (74HC14D) -> пины: 3
+  /MCU/HEATER_02  [Default]
+    U4 (STM32F103C8Tx) -> пины: 46
+    U6 (74HC14D) -> пины: 1
+  /MCU/HEATER_LED_01  [Default]
+    U4 (STM32F103C8Tx) -> пины: 21
+    U5 (74HC14D) -> пины: 5
+  /MCU/HEATER_LED_02  [Default]
+    U4 (STM32F103C8Tx) -> пины: 22
+    U5 (74HC14D) -> пины: 3
+  /MCU/HEATER_LED_OUT_01  [Default]
+    J9 (Led Out) -> пины: 1
+    R13 (330R) -> пины: 2
+  /MCU/HEATER_LED_OUT_02  [Default]
+    J9 (Led Out) -> пины: 3
+    R12 (330R) -> пины: 2
+  /MCU/HEATER_OUT_01  [Default]
+    J10 (Signal Out) -> пины: 2
+    R15 (10K) -> пины: 1
+    U6 (74HC14D) -> пины: 10
+  /MCU/HEATER_OUT_02  [Default]
+    J10 (Signal Out) -> пины: 4
+    R14 (10K) -> пины: 1
+    U6 (74HC14D) -> пины: 12
+  /MCU/LCD_SCL  [Default]
+    J4 (LCD1602) -> пины: 4
+    U4 (STM32F103C8Tx) -> пины: 42
+  /MCU/LCD_SDA  [Default]
+    J4 (LCD1602) -> пины: 3
+    U4 (STM32F103C8Tx) -> пины: 43
+  /MCU/MAX_CS_01  [Default]
+    J7 (MAX6675_01) -> пины: 4
+    U4 (STM32F103C8Tx) -> пины: 13
+  /MCU/MAX_CS_02  [Default]
+    J8 (MAX6675_02) -> пины: 4
+    U4 (STM32F103C8Tx) -> пины: 14
+  /MCU/MAX_MISO  [Default]
+    J7 (MAX6675_01) -> пины: 5
+    J8 (MAX6675_02) -> пины: 5
+    U4 (STM32F103C8Tx) -> пины: 16
+  /MCU/MAX_SCK  [Default]
+    J7 (MAX6675_01) -> пины: 3
+    J8 (MAX6675_02) -> пины: 3
+    U4 (STM32F103C8Tx) -> пины: 15
+  /MCU/NRST  [Default]
+    C32 (100 nF) -> пины: 1
+    J5 (SWD) -> пины: 4
+    R7 (10K) -> пины: 1
+    SW1 (SW_Push) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 7
+  /MCU/RENC_A  [Default]
+    J6 (Rotary Encoder) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 10
+  /MCU/RENC_B  [Default]
+    J6 (Rotary Encoder) -> пины: 3
+    U4 (STM32F103C8Tx) -> пины: 11
+  /MCU/RENC_BUTTON  [Default]
+    J6 (Rotary Encoder) -> пины: 4
+    U4 (STM32F103C8Tx) -> пины: 12
+  /MCU/RX  [Default]
+    J3 (USART) -> пины: 4
+    U4 (STM32F103C8Tx) -> пины: 31
+  /MCU/SWCLK  [Default]
+    J5 (SWD) -> пины: 3
+    U4 (STM32F103C8Tx) -> пины: 37
+  /MCU/SWDIO  [Default]
+    J5 (SWD) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 34
+  /MCU/TX  [Default]
+    J3 (USART) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 30
+  /MCU/XTAL_8M_IN  [Default]
+    C30 (12 pF) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 5
+    Y1 (8MHz) -> пины: 2
+  /MCU/XTAL_8M_OUT  [Default]
+    C18 (12 pF) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 6
+    Y1 (8MHz) -> пины: 1
+  /MCU/XTAL_RTC_IN  [Default]
+    C19 (6.8 pF) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 3
+    Y2 (32.768KHz) -> пины: 1
+  /MCU/XTAL_RTC_OUT  [Default]
+    C31 (6.8 pF) -> пины: 2
+    U4 (STM32F103C8Tx) -> пины: 4
+    Y2 (32.768KHz) -> пины: 2
+

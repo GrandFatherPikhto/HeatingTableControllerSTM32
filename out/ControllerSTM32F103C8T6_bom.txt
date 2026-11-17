@@ -1,0 +1,81 @@
+=== BOM (список компонентов) для ControllerSTM32F103C8T6.net ===
+
+Компонент | Номинал                   | Footprint                     
+----------------------------------------------------------------
+BZ1  | Buzzer                    | Buzzer_12x9.5RM7.6            
+C1   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
+C2   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
+C3   | C 10uF 35V                | CP_EIA-6032-28_Kemet-C        
+C4   | 470uF 35V                 | CP_Radial_D13.0mm_P5.00mm     
+C5   | 10uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C6   | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C7   | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C8   | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C9   | C 47uF 25V                | CP_EIA-6032-28_Kemet-C        
+C10  | C 47uF 25V                | CP_EIA-6032-28_Kemet-C        
+C11  | C 47uF 25V                | CP_EIA-6032-28_Kemet-C        
+C12  | 1uF                       | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C13  | 1uF                       | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C14  | 1uF                       | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C15  | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C16  | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C17  | 100nF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C18  | 12 pF                     | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C19  | 6.8 pF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C20  | 1 uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C21  | 1 uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C22  | 1 uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C23  | 1 uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C24  | 1 uF                      | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C25  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C26  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C27  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C28  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C29  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C30  | 12 pF                     | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C31  | 6.8 pF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C32  | 100 nF                    | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C33  | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+D1   | LED Red                   | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D2   | LED Green                 | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D3   | LED Green                 | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D4   | LED Green                 | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D5   | 1N4007                    | D_SOD-123                     
+F1   | MF-MSMF075-2              | FUSC4632X85N                  
+H1   | MountingHole              | MountingHole_3.2mm_M3         
+H2   | MountingHole              | MountingHole_3.2mm_M3         
+H3   | MountingHole              | MountingHole_3.2mm_M3         
+H4   | MountingHole              | MountingHole_3.2mm_M3         
+J1   | +5V In                    | JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
+J2   | Boot                      | PinHeader_1x02_P2.54mm_Vertical
+J3   | USART                     | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+J4   | LCD1602                   | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+J5   | SWD                       | PinHeader_1x05_P2.54mm_Vertical
+J6   | Rotary Encoder            | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
+J7   | MAX6675_01                | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
+J8   | MAX6675_02                | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
+J9   | Led Out                   | JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
+J10  | Signal Out                | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+Q1   | MMBT3904                  | SOT-23                        
+R1   | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R2   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R3   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R4   | 220R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R7   | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R8   | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R9   | 100K                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R10  | 1K                        | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R11  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R12  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R13  | 330R                      | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R14  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R15  | 10K                       | R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+SW1  | SW_Push                   | SW_PUSH_6mm                   
+U1   | AMS1117-3.3               | SOT-223-3_TabPin2             
+U2   | AMS1117-3.3               | SOT-223-3_TabPin2             
+U3   | AMS1117-3.3               | SOT-223-3_TabPin2             
+U4   | STM32F103C8Tx             | LQFP-48_7x7mm_P0.5mm          
+U5   | 74HC14D                   | SOIC-14_3.9x8.7mm_P1.27mm     
+U6   | 74HC14D                   | SOIC-14_3.9x8.7mm_P1.27mm     
+Y1   | 8MHz                      | Crystal_HC49-4H_Vertical      
+Y2   | 32.768KHz                 | Crystal_C38-LF_D3.0mm_L8.0mm_Vertical
